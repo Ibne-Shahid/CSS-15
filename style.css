@@ -38,7 +38,7 @@ p, h1{
 
 .food img{
     height: 250px;
-    width:250px;
+    width:100%;
     border-radius: 5px;
 }
 
@@ -55,5 +55,20 @@ p, h1{
     border-radius: 5px;
     background-color: burlywood;
     padding: 10px;
-    
+}
+
+@media (max-width:576px){
+    .nav-1{
+        height: 70px;
+        width: 576px;
+        background-color: beige;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart-section{
+        grid-template-columns: repeat(2, 150px);
+    }
+
 }
