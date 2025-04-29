@@ -1,0 +1,59 @@
+*{
+    background-color: cadetblue;
+}
+
+/* nav */
+
+.nav-1{
+    height: 70px;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    background-color: beige;
+}
+
+.border-1:hover{
+    border: 3px solid blue;
+}
+
+/* food cart */
+
+p, h1{
+    background-color: antiquewhite;
+}
+
+.food{
+    /* border: 1px solid red; */
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+.food img{
+    height: 250px;
+    width:250px;
+    border-radius: 5px;
+}
+
+.cart-section{
+    margin-left: 20px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 30px;
+}
+
+.button{
+    border: none;
+    border-radius: 5px;
+    background-color: burlywood;
+    padding: 10px;
+    
+}
